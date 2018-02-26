@@ -1,4 +1,3 @@
-# APC
 Nochex APC Test Pages
 ============
 
