@@ -2,7 +2,7 @@
 
 ### Test Page Setup Instructions
 
-Firstly download the latest release for your chosen language for the APC listener <a href="https://github.com/NochexDevTeam/APC/releases">here.</a>
+Firstly download the latest release for your chosen language APC listener <a href="https://github.com/NochexDevTeam/APC/releases">here.</a>
 
 Extract the downloaded folder, and Open your page in a text editor, replace 'your_email@example.com' with your email address for example 'myemail@hotmail.co.uk'. Save all changes.
 
