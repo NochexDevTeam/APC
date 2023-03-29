@@ -7,7 +7,7 @@ $header = "From: apc@nochex.com";
 
 // Set parameters for the email
 $to = 'your_email@nochex.com';
-$url = "https://www.nochex.com/apcnet/apc.aspx";
+$url = "https://secure.nochex.com/apc/apc.aspx";
 
 // Curl code to post variables back
 $ch = curl_init(); // Initialise the curl tranfer
@@ -17,11 +17,8 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $postvars); // Set POST fields
-curl_setopt($ch, CURLOPT_HTTPHEADER, "Host: www.nochex.com");
-curl_setopt($ch, CURLOPT_POSTFIELDSIZE, 0); 
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 curl_setopt($ch, CURLOPT_TIMEOUT, 60); // set connection time out variable - 60 seconds	
-//curl_setopt ($ch, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1); // set openSSL version variable to CURL_SSLVERSION_TLSv1
 $output = curl_exec($ch); // Post back
 curl_close($ch);
 
