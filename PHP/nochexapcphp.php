@@ -42,7 +42,7 @@ function http_post($server, $port, $url, $vars) {
 $response = http_post("ssl://www.nochex.com", 443, "/apcnet/apc.aspx", $_POST); 
 
 // HTTP  
-//$response = http_post("www.nochex.com", 80, "/apcnet/apc.aspx", $_POST); 
+//$response = http_post("secure.nochex.com", 80, "/apc/apc.aspx", $_POST); 
 
 // stores the response from the Nochex server 
 $debug = "IP -> " . $_SERVER['REMOTE_ADDR'] ."\r\n\r\nPOST DATA:\r\n"; 
