@@ -24,7 +24,7 @@ Partial Class nochexapc_vb
 
             ' Create a request to the Nochex server.
             'Dim webrequest As Net.HttpWebRequest = Net.WebRequest.Create("https://secure.nochex.com/callback/callback.aspx")
-           Dim webrequest As Net.HttpWebRequest = Net.WebRequest.Create("https://www.nochex.com/apcnet/apc.aspx")
+           Dim webrequest As Net.HttpWebRequest = Net.WebRequest.Create("https://secure.nochex.com/apc/apc.aspx")
             ' Set as a POST request.
             webrequest.Method = "POST"
             webrequest.ContentType = "application/x-www-form-urlencoded"
