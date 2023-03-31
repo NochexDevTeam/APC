@@ -39,7 +39,7 @@ function http_post($server, $port, $url, $vars) {
 //$_POST['order_id'] = "1"; 
 
 //HTTPS
-$response = http_post("ssl://www.nochex.com", 443, "/apcnet/apc.aspx", $_POST); 
+$response = http_post("ssl://secure.nochex.com", 443, "/apc/apc.aspx", $_POST); 
 
 // HTTP  
 //$response = http_post("secure.nochex.com", 80, "/apc/apc.aspx", $_POST); 
