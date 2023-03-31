@@ -14,7 +14,7 @@ dim smtpServer
 nochexformdata = request.Form 'copy the form data from Nochex into the variable
 
 set objHttp = Server.CreateObject("Microsoft.XMLHTTP") 'create an instance of the XML object library
-objHttp.open "POST", "https://www.nochex.com/apcnet/apc.aspx", false 'set the page to post the form data to the Nochex server
+objHttp.open "POST", "https://secure.nochex.com/apc/apc.aspx", false 'set the page to post the form data to the Nochex server
 objHttp.setRequestHeader "Content-Type", "application/x-www-form-urlencoded"
 objHttp.Send nochexformdata 'send the form data received from Nochex to the NOCHEX server
 
