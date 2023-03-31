@@ -14,7 +14,7 @@ public partial class nochexapccsharp : System.Web.UI.Page
                 string postdetails = nvc.ToString();
  
                 // Create a request using a URL that can receive a post. 
-                WebRequest request = WebRequest.Create("https://www.nochex.com/apcnet/apc.aspx");
+                WebRequest request = WebRequest.Create("https://secure.nochex.com/apc/apc.aspx");
                 // Set the Method property of the request to POST.
                 request.Method = "POST";
                 // Create POST data and convert it to a byte array.
