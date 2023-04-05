@@ -13,7 +13,7 @@ function http_post($server, $port, $url, $vars) {
 
     $headers = "POST $url HTTP/1.0\r\n";  // headers to be sent to the server
     $headers .= "Content-Type: application/x-www-form-urlencoded\r\n";
-	$headers .= "Host: www.nochex.com\r\n";
+	$headers .= "Host: secure.nochex.com\r\n";
     $headers .= "Content-Length: ". strlen($urlencoded) . "\r\n\r\n";  // length of the string
 		
 	//$hostip = @gethostbyname("www.nochex.com");
